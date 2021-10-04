@@ -24,6 +24,7 @@ handler = CORSRequestHandler
 
 handler.extensions_map ={
     ".js": "application/javascript",
+    ".mjs": "application/javascript",
 }
 
 print("Listening on {}:{}".format(host, port))
